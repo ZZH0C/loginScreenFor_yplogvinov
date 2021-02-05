@@ -2,8 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import LoginScreen from "./components/loginWindow";
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 import reportWebVitals from './reportWebVitals';
+import './config.scss'
 
 ReactDOM.render(
   <React.StrictMode>
